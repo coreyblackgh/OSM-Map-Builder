@@ -3,12 +3,12 @@ rem Select desired map from: https://download.geofabrik.de and fill the fields b
 set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM MapTourist Ukraine
+set MapDescription=MapTourist Ukraine Updated:
 set MapId=100
 
 rem info MkgMap
 rem https://www.mkgmap.org.uk/doc/index.html
 rem The rest parameters are technical!
-set MapDescription=Updated:
 set MapsStoreFolder=.\MapsStoreFolder
 set SplitterFolder=.\splitter-r653
 set MkgMapFolder=.\mkgmap-r4907
@@ -41,8 +41,8 @@ java -Xmx8G -jar splitter.jar --description="%MapDescription% %date:~-4,4%-%date
 cd..
 
 cd %MkgMapFolder%
-java -Xmx8G -jar mkgmap.jar --style-file=..\CurrentConfigs --check-styles
-java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\config.cfg ..\maptourist.typ
+java -Xmx8G -jar mkgmap.jar --style-file=..\Configs\CurrentConfigs --check-styles
+java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\config.cfg ..\Configs\maptourist.typ
 cd..
 
 cd %SplitterFolder%

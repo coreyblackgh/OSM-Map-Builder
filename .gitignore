@@ -8,6 +8,8 @@
 /splitter-r653/template.args
 /splitter-r653/splitter.log
 *.bnd
-/bounds/version.txt
-/sea/index.txt.gz
-/sea/version.txt
+/Configs/bounds/bounds-latest.zip.url
+/Configs/bounds/version.txt
+/Configs/sea/index.txt.gz
+/Configs/sea/sea-latest.zip.url
+/Configs/sea/version.txt
