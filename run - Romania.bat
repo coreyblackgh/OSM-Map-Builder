@@ -1,4 +1,5 @@
 rem This block setup specific map settings (MapId should be unique too!)
+rem Select desired map from: https://download.geofabrik.de and fill the fields below:
 set Region=Europe
 set MapFileName=romania-latest.osm.pbf
 set MapName=OSM MapTourist Romania
