@@ -1,6 +1,5 @@
 .vs
 /TempOutput
-/xmaptourist.typ
 *.pbf
 *.list
 *.poly
@@ -13,3 +12,4 @@
 /Configs/sea/index.txt.gz
 /Configs/sea/sea-latest.zip.url
 /Configs/sea/version.txt
+/Configs/xmaptourist.typ
