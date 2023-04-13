@@ -1,4 +1,5 @@
 rem This block setup specific map settings (MapId should be unique too!)
+set Region=Europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM MapTourist Ukraine
 set MapId=100
@@ -29,7 +30,7 @@ cd..
 cd .\MapsStoreFolder
 del /s %MapFileName%
 @echo Downloading the map from https://download.geofabrik.de/
-wget https://download.geofabrik.de/europe/%MapFileName%
+wget https://download.geofabrik.de/%Region%/%MapFileName%
 cd..
 
 copy %MapsStoreFolder%\%MapFileName% %SplitterFolder%
