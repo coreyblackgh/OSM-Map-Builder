@@ -1,6 +1,6 @@
 rem This block setup specific map settings (MapId should be unique too!)
 rem Select desired map from: https://download.geofabrik.de and fill the fields below:
-set Region=Europe
+set Region=europe
 set MapFileName=cyprus-latest.osm.pbf
 set MapName=OSM MapTourist Cyprus
 set MapId=102
@@ -11,6 +11,7 @@ rem The rest parameters are technical!
 set MapDescription=Updated:
 set MapsStoreFolder=.\MapsStoreFolder
 set SplitterFolder=.\splitter-r653
+set MkgMapFolder=.\mkgmap-r4907
 
 @echo Clean temp folders
 set TempOutput=.\TempOutput
@@ -34,12 +35,15 @@ wget https://download.geofabrik.de/%Region%/%MapFileName%
 cd..
 
 copy %MapsStoreFolder%\%MapFileName% %SplitterFolder%
+
 cd %SplitterFolder%
 java -Xmx8G -jar splitter.jar --description="%MapDescription% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%" %MapFileName% > splitter.log
 cd..
 
-java -Xmx8G -jar mkgmap.jar --style-file=CurrentConfigs --check-styles
-java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c config.cfg maptourist.typ
+cd %MkgMapFolder%
+java -Xmx8G -jar mkgmap.jar --style-file=..\CurrentConfigs --check-styles
+java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\config.cfg ..\maptourist.typ
+cd..
 
 cd %SplitterFolder%
 del /s *.pbf
