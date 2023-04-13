@@ -8,7 +8,6 @@ set MapId=102
 rem info MkgMap
 rem https://www.mkgmap.org.uk/doc/index.html
 rem The rest parameters are technical!
-
 set MapDescription=Updated:
 set MapsStoreFolder=.\MapsStoreFolder
 set SplitterFolder=.\splitter-r653
