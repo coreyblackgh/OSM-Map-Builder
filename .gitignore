@@ -3,9 +3,9 @@
 *.pbf
 *.list
 *.poly
-/splitter-r653/densities-out.txt
-/splitter-r653/template.args
-/splitter-r653/splitter.log
+/splitter*/densities-out.txt
+/splitter*/template.args
+/splitter*/splitter.log
 *.bnd
 /Configs/bounds/version.txt
 /Configs/sea/index.txt.gz
