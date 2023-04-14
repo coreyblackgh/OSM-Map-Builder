@@ -8,7 +8,7 @@ set MapId=101
 
 rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
 set Typ=maptourist.typ
-set Style=DefaultStyles
+set Style=MaptouristStyles
 
 rem Dirs.
 set MapsStoreFolder=.\MapsStoreFolder
