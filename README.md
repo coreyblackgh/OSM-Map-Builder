@@ -7,7 +7,7 @@
 2. Download or clone the project.
 3. Refer to readme: https://github.com/coreyblackgh/OSM-Map-Builder/tree/Master/Configs/bounds
 4. Refer to readme: https://github.com/coreyblackgh/OSM-Map-Builder/tree/Master/Configs/sea
-5. Run the existing BAT file to create the map (Ex.: '100_Ukraine-MapTourist.bat') once the script was finished its work - in the folder: 'TempOutput' You will be able to find Your created IMG map for GARMIN (Ex.: 'OSM MapTourist Ukraine 2023-04-15.img') and folder with the map for Garmin BaseCamp application (Ex.:'OSM MapTourist Ukraine.gmap' which should be placed to 'C:\Program Files (x86)\Garmin\BaseCamp\Maps') The 'BaseCamp' can be downloaded from: https://www.garmin.com/en-US/software/basecamp/.
+5. Run the existing BAT file to create the map (Ex.: '100_Ukraine-MapTourist.bat') once the script was finished its work - in the folder: 'TempOutput' You will be able to find Your created IMG map for GARMIN (Ex.: 'OSM MapTourist Ukraine 2023-04-15.img') and folder with the map for Garmin BaseCamp application (Ex.:'OSM MapTourist Ukraine.gmap' which should be placed to 'C:\Program Files (x86)\Garmin\BaseCamp\Maps') The 'BaseCamp' can be downloaded from: https://www.garmin.com/en-US/software/basecamp/ , of course if You want to use it :).
 
 
 ### If You want to create the new map:
