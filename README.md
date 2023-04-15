@@ -32,4 +32,4 @@ But it can't be longer than 3 integers.
 This will help to avoid the cross-replacing of internal parts of maps and guarantee that Your map will be visible together with other maps.
 
 ### The common style is - MapTourist
-However, also added three more styles: 'Stranger' (alternative styles & icons), 'Velo100' (alternative styles & icons), and 'Jbm' (has styles from 'Velo100' but its own icons and transparent layer with all map objects - which will be helpful if You want to highlight the track or route in Your navigator).
+However, also added two more styles: 'Velo100' (alternative styles & icons), and 'Jbm' (has styles from 'Velo100' but its own icons and transparent layer with all map objects - which will be helpful if You want to highlight the track or route in Your navigator).
