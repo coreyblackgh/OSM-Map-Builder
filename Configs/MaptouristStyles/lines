@@ -21,6 +21,12 @@ operator~'.*(\u00bb+).*' {set operator='${operator|subst:[\u00bb+]~>}'}
 brand~'.*("+).*' {set brand='${brand|subst:["+]~>}'}
 brand~'.*(\u00ab+).*' {set brand='${brand|subst:[\u00ab+]~>}'}
 brand~'.*(\u00bb+).*' {set brand='${brand|subst:[\u00bb+]~>}'}
+addr:street~'.*("+).*' {set addr:street='${addr:street|subst:["+]~>}'}
+addr:street~'.*(\u00ab+).*' {set addr:street='${addr:street|subst:[\u00ab+]~>}'}
+addr:street~'.*(\u00bb+).*' {set addr:street='${addr:street|subst:[\u00bb+]~>}'}
+addr:place~'.*("+).*' {set addr:place='${addr:place|subst:["+]~>}'}
+addr:place~'.*(\u00ab+).*' {set addr:place='${addr:place|subst:[\u00ab+]~>}'}
+addr:place~'.*(\u00bb+).*' {set addr:place='${addr:place|subst:[\u00bb+]~>}'}
 
 # Description to Name
 # копия из /name, но не set. Иначе задвоения в полигонах!
@@ -30,7 +36,6 @@ brand~'.*(\u00bb+).*' {set brand='${brand|subst:[\u00bb+]~>}'}
 addr:housenumber=* {set mkgmap:execute_finalize_rules=true}
 
 include 'inc/status';
-
 # сокращаем статусные части названий улиц (пока отлючено)
 # name=* {  name '${name|subst:улица=> ул.
 #			|subst:переулок=> пер.
@@ -80,6 +85,9 @@ highway=no | highway=none {delete highway}
 # удаляем мост если bridge=no
 bridge=no	{delete highway; delete rail; delete bridge}
 
+# See line #582
+# highway=* & oneway!=yes & name=* & ref=* & is_in('place','*',any)=true {delete ref}
+
 # Assign the street name for house number search
 highway=* & name=* { set mkgmap:street='${name}' }
 
@@ -87,7 +95,8 @@ highway=* & name=* { set mkgmap:street='${name}' }
 if (mkgmap:option:code-page=1251) 
 then
 	# платная
-	highway=* & toll=yes { set name='${name} (платн.)' | 'платная' }
+	highway=* & toll=yes 
+	{ set name='${name} (платн.)' | 'платная' }
 	# грейдер
 	highway=* & surface=compacted & highway!=pedestrian & highway!=footway & highway!=path
 	{ set name='${name} (грейдер)' | 'грейдер' }
@@ -103,15 +112,18 @@ then
 	railway=abandoned | (railway=* & abandoned=yes) | railway=disused | (disused:railway=rail & railway!=disused)
 	{ name '${name} (недейств. ж/д)' | 'недейств. ж/д' }
 	## недейств. ужд
-	railway=narrow_gauge & disused=yes { name '${name} (недейств. ужд)' | 'недейств. ужд' }
+	railway=narrow_gauge & disused=yes 
+	{ name '${name} (недейств. ужд)' | 'недейств. ужд' }
 	## узкоколейка
-	railway=narrow_gauge { name '${name} (ужд)' | 'ужд' }
+	railway=narrow_gauge 
+	{ name '${name} (ужд)' | 'ужд' }
 end
 
 if (mkgmap:option:code-page=1250) 
 then
 	# платная
-	highway=* & toll=yes { set name='${name} (toll)' | 'toll road' }
+	highway=* & toll=yes 
+	{ set name='${name} (toll)' | 'toll road' }
 	# грейдер
 	highway=* & surface=compacted & highway!=pedestrian & highway!=footway & highway!=path
 	{ set name='${name} (comapcted)' | 'comapcted' }
@@ -127,12 +139,13 @@ then
 	railway=abandoned | (railway=* & abandoned=yes) | railway=disused | (disused:railway=rail & railway!=disused)
 	{ name '${name} (disused rail)' | 'disused rail' }
 	## недейств. ужд
-	railway=narrow_gauge & disused=yes { name '${name} (disused narrow rail)' | 'disused narrow rail' }
+	railway=narrow_gauge & disused=yes 
+	{ name '${name} (disused narrow rail)' | 'disused narrow rail' }
 	## узкоколейка
-	railway=narrow_gauge { name '${name} (narrow rail)' | 'narrow rail' }
+	railway=narrow_gauge 
+	{ name '${name} (narrow rail)' | 'narrow rail' }
 end
 ####### Language specific translations
-
 
 highway=* & amenity=fuel | amenity=fuel & area=yes 
 	{delete highway; set highway=rest_area; set area=yes}
@@ -329,22 +342,22 @@ leisure=track & area!=yes {name '${name} (${sport})' | '${name}'} [0x16 road_cla
 {add highway=footway; name '${ref} ${name}' | '${ref}' | '${name}' }
 
 # Roundabouts
-junction=roundabout & (highway=trunk | highway=trunk_link) [0x0c road_class=4 road_speed=2 resolution 21 continue]
+junction=roundabout & (highway=trunk | highway=trunk_link) [0x0c road_class=4 road_speed=2 resolution 21]
 #junction=roundabout & (highway=trunk | highway=trunk_link) [0x10801 resolution 18]
 
-junction=roundabout & (highway=primary | highway=primary_link) & mkgmap:fast_road=yes [0x0c road_class=4 road_speed=2 resolution 21 continue]
+junction=roundabout & (highway=primary | highway=primary_link) & mkgmap:fast_road=yes [0x0c road_class=4 road_speed=2 resolution 21]
 #junction=roundabout & (highway=primary | highway=primary_link) & mkgmap:fast_road=yes [0x10802 resolution 19]
 
-junction=roundabout & (highway=primary | highway=primary_link) [0x0c road_class=3 road_speed=2 resolution 21 continue]
+junction=roundabout & (highway=primary | highway=primary_link) [0x0c road_class=3 road_speed=2 resolution 21]
 #junction=roundabout & (highway=primary | highway=primary_link) [0x10802 resolution 19]
 
-junction=roundabout & (highway=secondary | highway=secondary_link) & mkgmap:fast_road=yes [0x0c road_class=3 road_speed=2 resolution 21 continue]
+junction=roundabout & (highway=secondary | highway=secondary_link) & mkgmap:fast_road=yes [0x0c road_class=3 road_speed=2 resolution 21]
 #junction=roundabout & (highway=secondary | highway=secondary_link) & mkgmap:fast_road=yes [0x10803 resolution 19]
 
-junction=roundabout & (highway=secondary | highway=secondary_link) [0x0c road_class=2 road_speed=2 resolution 21 continue]
+junction=roundabout & (highway=secondary | highway=secondary_link) [0x0c road_class=2 road_speed=2 resolution 21]
 #junction=roundabout & (highway=secondary | highway=secondary_link) [0x10803 resolution 19]
 
-junction=roundabout & (highway=tertiary | highway=tertiary_link) [0x0c road_class=1 road_speed=1 resolution 21 continue]
+junction=roundabout & (highway=tertiary | highway=tertiary_link) [0x0c road_class=1 road_speed=1 resolution 21]
 #junction=roundabout & (highway=tertiary | highway=tertiary_link) [0x10804 resolution 19]
 
 junction=roundabout & (highway=unclassified | highway=minor ) [0x0c road_class=1 road_speed=1 resolution 21]
@@ -428,7 +441,7 @@ highway=* & area!=yes [0x07 road_class=0 road_speed=0 resolution 22]
 
 #power=line [0x29 resolution 21]
 power=line | power=minor_line {name '${name} ${ref} (${voltage}v)' | '${name} (${voltage}v)' | '${ref} (${voltage}v)'
-	   | '${name} ${ref}' | '${name}' | '${ref}'}
+	   | '${name} ${ref}' | '${name}' | '${ref}' | '${voltage}v'}
 power=line  	 | (power=line & man_made=cutline) 	 [0x29 resolution 21]
 power=minor_line | (power=minor_line & man_made=cutline) [0x29 resolution 22]
 man_made=cutline & (power!=line | power!=minor_line) [0x0e road_class=0 road_speed=0 resolution 21]
@@ -544,9 +557,6 @@ include 'inc/roadspeed';
 # calculate the access rules
 include 'inc/access';
 
-# highway=* & addr:street!=* { set addr:street='${mkgmap:city}' }
-# highway=* & name!=* { name '${mkgmap:city}' }
-
 #limit artificial cycleways to resolution 24
 mkgmap:synthesised=yes & mkgmap:bicycle=yes { set mkgmap:highest-resolution-only = true }
 
@@ -575,6 +585,8 @@ mkgmap:bicycle=yes & (mkgmap:foot=no & mkgmap:car=no & mkgmap:street!=* | mkgmap
 #	 name '${ref|highway-symbol:round} ${name}'; addlabel '${name}' }
 #USA
 
+#(highway=* | junction=*) & highway!=motorway & (highway=trunk & oneway!=yes) & name=* & ref=* & addr:place=* {delete ref}
+(highway=* | junction=*) & highway!=motorway & highway!=trunk & name=* & ref=* & addr:place=* {delete ref}
 (highway=motorway | highway=trunk) & ref=*
 	{set ref='${ref|subst:[\s-]~>|subst:[;,]~>/}'
 	 name '${ref|highway-symbol:hbox} ${name}'|'${ref|highway-symbol:hbox}'; addlabel '${name}' }

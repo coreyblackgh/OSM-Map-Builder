@@ -12,6 +12,7 @@ addr:housenumber=* {set mkgmap:execute_finalize_rules=true}
 
 include 'inc/name';
 include 'inc/status';
+
 ####### Language secific translations
 if (mkgmap:option:code-page=1251) then
 include "inc/name-ru";
@@ -48,11 +49,19 @@ man_made=water_works [0x0c resolution 21]
 man_made=pumping_station & building!=* [0x0c resolution 21]
 man_made=works & (building!=* | building=no) [0x0c resolution 21]
 
-
 man_made=mine [0x0c resolution 21]
 
 # Пирсы 
 man_made=pier | man_made=breakwater [0x10f11 resolution 22]
+
+man_made=observatory & building!=yes [0x0a resolution 22]
+
+# Удаляем подземные полигоны зданий и сооружений
+man_made=* & location=underground {delete man_made}
+building=* & location=underground {delete building}
+
+# Удаляем полигоны тоннелей
+man_made=tunnel {delete man_made}
 
 # Все бесхозные man_made до зданий
 man_made=* & landuse=* {delete man_made}
@@ -154,6 +163,7 @@ amenity=baby_hatch [0x0a resolution 22 continue]
 # amenity=supermarket is superceded by shop=supermarket or landuse=retail
 amenity=supermarket & building!=* [0x08 resolution 21]
 amenity=university & building!=* [0x0a resolution 22 continue]
+amenity=research_institute & building!=* [0x0a resolution 22 continue]
 
 (healthcare=hospital | amenity=hospital | amenity=clinic) & building!=* [0x0b resolution 21]
 (healthcare=* | amenity=dentist | amenity=doctors | amenity=nursing_home) & building!=* [0x0b resolution 21]
@@ -216,6 +226,7 @@ place=village 	[0x03 resolution 21]
 place=hamlet 	[0x03 resolution 22]
 place=locality & name=* [0x54 resolution 22]
 place=neighbourhood & name=* [0x55 resolution 22]
+place=quarter & name=* [0x55 resolution 22]
 place=isolated_dwelling [0x03 resolution 22]
 place=allotments & landuse!=residential & landuse!=allotments [0x03 resolution 22]
 
