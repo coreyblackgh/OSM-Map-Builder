@@ -1,5 +1,5 @@
 # OSM-Map-Builder
-## With this builder You can easily create Your own OSM maps of any country You want.
+## With this builder You can easily create Your own OSM maps for Garmin device & Garmin BaseCamp of any country You want.
 
 ### Requirements:
 
