@@ -7,8 +7,8 @@ set MapDescription=MapTourist Ukraine Updated:
 set MapId=100
 
 rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
-set Typ=velo100.typ
-set Style=Velo100Styles
+set Typ=maptourist.typ
+set Style=MaptouristStyles
 
 rem Dirs.
 set MapsStoreFolder=.\MapsStoreFolder
