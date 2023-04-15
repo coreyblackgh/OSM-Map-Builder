@@ -22,7 +22,7 @@ set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM MapTourist Ukraine
 set MapDescription=MapTourist Ukraine Updated:
-set MapId=100
+set MapId=1000
 ```
 For each map, the 'MapId' should be unique.
 
