@@ -1,5 +1,4 @@
 .vs
-/TempOutput
 *.pbf
 *.list
 *.poly
@@ -14,3 +13,6 @@
 /Configs/xstranger.typ
 /Configs/xjbm.typ
 /Configs/xvelo100.typ
+*.img
+*.mdx
+*.tdb
