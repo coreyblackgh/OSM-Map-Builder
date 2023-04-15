@@ -36,7 +36,7 @@ cd..
 
 cd %MkgMapFolder%
 java -Xmx8G -jar mkgmap.jar --style-file=..\Configs\%Style% --check-styles
-java -Xmx8G -jar mkgmap.jar --mapname=63%MapId%001 --overview-mapname="%MapName%" --overview-mapnumber=63%MapId%001 --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\%Config% ..\Configs\%Typ%
+java -Xmx8G -jar mkgmap.jar --mapname=63%MapId%001 --overview-mapname="%MapName%" --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\%Config% ..\Configs\%Typ%
 cd..
 
 cd %SplitterFolder%
