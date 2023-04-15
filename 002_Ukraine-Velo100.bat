@@ -4,7 +4,7 @@ set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM Velo100 Ukraine
 set MapDescription=Velo100 Ukraine Updated:
-rem If You creating the new map - add 1 to the existing number. (Ex.: Current MapId=000 + 1 = 001, so the new MapId will be: MapId=001)
+rem If You creating the new map - add 1 to the existing number. (Ex.: Current MapId=001 + 1 = 002, so the new MapId will be: MapId=002)
 rem But it can't be longer than 3 integer.
 set MapId=002
 
