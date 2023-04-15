@@ -6,7 +6,7 @@ set MapName=OSM Jbm Ukraine
 set MapDescription=Jbm Ukraine Updated:
 rem If You creating the new map - add 1 to the existing number. (Ex.: Current MapId=000 + 1 = 001, so the new MapId will be: MapId=001)
 rem But it can't be longer than 3 integer.
-set MapId=004
+set MapId=003
 
 rem Map style & Typ.
 set Typ=jbm.typ
