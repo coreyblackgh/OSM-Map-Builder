@@ -6,7 +6,7 @@ set MapName=OSM MapTourist Ukraine
 set MapDescription=MapTourist Ukraine Updated:
 set MapId=100
 
-rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
+rem Map style & Typ.
 set Typ=maptourist.typ
 set Style=MaptouristStyles
 set Config=maptourist.cfg

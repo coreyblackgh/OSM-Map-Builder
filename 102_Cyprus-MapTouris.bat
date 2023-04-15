@@ -6,7 +6,7 @@ set MapName=OSM MapTourist Cyprus
 set MapDescription=MapTourist Cyprus Updated:
 set MapId=102
 
-rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
+rem Map style & Typ.
 set Typ=maptourist.typ
 set Style=MaptouristStyles
 

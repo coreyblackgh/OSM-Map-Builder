@@ -6,7 +6,7 @@ set MapName=OSM Velo100 Ukraine
 set MapDescription=Velo100 Ukraine Updated:
 set MapId=100
 
-rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
+rem Map style & Typ.
 set Typ=velo100.typ
 set Style=Velo100Styles
 set Config=velo100.cfg

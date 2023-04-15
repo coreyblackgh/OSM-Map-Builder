@@ -6,7 +6,7 @@ set MapName=OSM MapTourist Romania
 set MapDescription=MapTourist Romania Updated:
 set MapId=101
 
-rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
+rem Map style & Typ.
 set Typ=maptourist.typ
 set Style=MaptouristStyles
 
