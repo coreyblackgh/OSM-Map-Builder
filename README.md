@@ -22,12 +22,12 @@ set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM MapTourist Ukraine
 set MapDescription=MapTourist Ukraine Updated:
-set MapId=000
+set MapId=001
 ```
 4. Rename file to: 'MapId_CountryName-StyleName.bat' (Ex.: '001_Ukraine-MapTourist.bat').
 
 For each map, the 'MapId' should be unique.
-You create the new map - add 1 to the existing number. (Ex.: Current MapId=000 + 1 = 001, so the new MapId will be: MapId=001)
+You create the new map - add 1 to the existing number. (Ex.: Current MapId=001 + 1 = 002, so the new MapId will be: MapId=002)
 But it can't be longer than 3 integers.
 This will help to avoid the cross-replacing of internal parts of maps and guarantee that Your map will be visible together with other maps.
 
