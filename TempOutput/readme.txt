@@ -1,1 +1,0 @@
-Output map directory which contains the finally compiled maps
