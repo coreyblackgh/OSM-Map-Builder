@@ -16,6 +16,7 @@
 3. Edit & save the newly created BAT file and fill in the information You received above in the 'final part' of the path:
 
 ```
+Example:
 set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM MapTourist Ukraine
