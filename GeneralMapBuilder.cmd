@@ -31,7 +31,7 @@ cd..
 copy %MapsStoreFolder%\%MapFileName% %SplitterFolder%
 
 cd %SplitterFolder%
-java -Xmx8G -jar splitter.jar --mapid=63240%MapId% --description="%MapDescription% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%" %MapFileName% > splitter.log
+java -Xmx8G -jar splitter.jar --mapid=63%MapId%001 --description="%MapDescription% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%" %MapFileName% > splitter.log
 cd..
 
 cd %MkgMapFolder%
@@ -50,7 +50,7 @@ cd..
 
 cd %TempOutput%
 ren gmapsupp.img "%MapName% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%".img
-del 63240*.img
+del 63*.img
 del "%MapName%"_mdr.img
 del "%MapName%".mdx
 del "%MapName%".tdb

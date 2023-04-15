@@ -4,9 +4,9 @@ set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
 set MapName=OSM Jbm Ukraine
 set MapDescription=Jbm Ukraine Updated:
-rem If You creating the new map - add 1 to the existing number. (Ex.: Current MapId=1000 + 1 = 1001, so the new MapId will be: MapId=1001)
-rem But it can't be longer than 4 integer.
-set MapId=1003
+rem If You creating the new map - add 1 to the existing number. (Ex.: Current MapId=000 + 1 = 001, so the new MapId will be: MapId=001)
+rem But it can't be longer than 3 integer.
+set MapId=003
 
 rem Map style & Typ.
 set Typ=jbm.typ
