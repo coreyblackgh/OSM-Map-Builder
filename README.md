@@ -13,7 +13,7 @@
 ### If You want to create the new map:
 1. You should copy the existing BAT file and rename it accordingly.
 2. Go to OpenStreetMap Data Extracts: https://download.geofabrik.de and note the path to Your desired country. (Ex.: Ukraine OSM data has the next path: https://download.geofabrik.de/europe/ukraine-latest.osm.pbf, we are interested in the 'final part' of the path - 'europe/ukraine-latest.osm.pbf').
-3. Edit the newly created BAT file and fill in the information You received above in the 'final part' of the path:
+3. Edit & save the newly created BAT file and fill in the information You received above in the 'final part' of the path:
 
 #### set Region=europe
 
