@@ -24,6 +24,8 @@ set MapName=OSM MapTourist Ukraine
 set MapDescription=MapTourist Ukraine Updated:
 set MapId=000
 ```
+4. Rename file to: 'MapId_CountryName-StyleName.bat' (Ex.: '001_Ukraine-MapTourist.bat').
+
 For each map, the 'MapId' should be unique.
 You create the new map - add 1 to the existing number. (Ex.: Current MapId=000 + 1 = 001, so the new MapId will be: MapId=001)
 But it can't be longer than 3 integers.
