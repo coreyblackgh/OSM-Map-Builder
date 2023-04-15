@@ -31,12 +31,12 @@ cd..
 copy %MapsStoreFolder%\%MapFileName% %SplitterFolder%
 
 cd %SplitterFolder%
-java -Xmx8G -jar splitter.jar --description="%MapDescription% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%" %MapFileName% > splitter.log
+java -Xmx8G -jar splitter.jar --mapid=63240%MapId% --description="%MapDescription% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%" %MapFileName% > splitter.log
 cd..
 
 cd %MkgMapFolder%
 java -Xmx8G -jar mkgmap.jar --style-file=..\Configs\%Style% --check-styles
-java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\%Config% ..\Configs\%Typ%
+java -Xmx8G -jar mkgmap.jar --mapname=63240%MapId% --overview-mapname="%MapName%" --overview-mapnumber=63240%MapId% --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\%Config% ..\Configs\%Typ%
 cd..
 
 cd %SplitterFolder%
@@ -50,4 +50,9 @@ cd..
 
 cd %TempOutput%
 ren gmapsupp.img "%MapName% %date:~-4,4%-%date:~-7,2%-%date:~-10,2%".img
+del /s 63240*.img
+del /s "%MapName%"_mdr.img
+del /s "%MapName%".mdx
+del /s "%MapName%".tdb
+del /s "%MapName%".img
 pause
