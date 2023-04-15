@@ -2,13 +2,14 @@ rem This block setup specific map settings (MapId should be unique too!)
 rem Select desired map from: https://download.geofabrik.de and fill the fields below:
 set Region=europe
 set MapFileName=ukraine-latest.osm.pbf
-set MapName=OSM MapTourist Ukraine
-set MapDescription=MapTourist Ukraine Updated:
+set MapName=OSM Velo100 Ukraine
+set MapDescription=Velo100 Ukraine Updated:
 set MapId=100
 
 rem Map style & Typ (if You decided to change 'Style' - also change it in config.cfg)
-set Typ=maptourist.typ
-set Style=MaptouristStyles
+set Typ=velo100.typ
+set Style=Velo100Styles
+set Config=velo100.cfg
 
 rem Dirs.
 set MapsStoreFolder=.\MapsStoreFolder
@@ -48,7 +49,7 @@ cd..
 
 cd %MkgMapFolder%
 java -Xmx8G -jar mkgmap.jar --style-file=..\Configs\%Style% --check-styles
-java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\config.cfg ..\Configs\%Typ%
+java -Xmx8G -jar mkgmap.jar --series-name="%MapName%" --family-name="%MapName%" --family-id=%MapId% -c ..\Configs\%Config% ..\Configs\%Typ%
 cd..
 
 cd %SplitterFolder%
