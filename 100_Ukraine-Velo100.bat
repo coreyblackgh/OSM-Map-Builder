@@ -20,7 +20,7 @@ rem https://www.mkgmap.org.uk/doc/index.html
 set SplitterFolder=.\splitter-r653
 set MkgMapFolder=.\mkgmap-r4907
 
-rem Logic & Global Settings.
+rem Logic.
 @echo Clean temp folders
 rmdir /Q /S %TempOutput%
 mkdir %TempOutput%
