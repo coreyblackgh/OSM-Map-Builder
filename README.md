@@ -25,3 +25,6 @@ set MapDescription=MapTourist Ukraine Updated:
 set MapId=100
 ```
 For each map, the 'MapId' should be unique.
+
+### The common style is - MapTourist
+However, also added 'Stranger' and 'Velo100' styles and one TYP called: 'Jbm' which uses the 'Velo100' style  (because they are both the bike styles) but has a transparent layer with all map objects - which will be helpful if You want to highlight the track or route in Your navigator.
