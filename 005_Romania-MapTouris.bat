@@ -3,7 +3,7 @@ rem Select desired map from: https://download.geofabrik.de and fill the fields b
 set Region=europe
 set MapFileName=romania-latest.osm.pbf
 set MapName=OSM MapTourist Romania
-set MapDescription=Jbm Ukraine Updated:
+set MapDescription=MapTourist Romania Updated:
 rem If You creating the new map - add 1 to the existing number. (Ex.: Current MapId=001 + 1 = 002, so the new MapId will be: MapId=002)
 rem But it can't be longer than 3 integer.
 set MapId=005
