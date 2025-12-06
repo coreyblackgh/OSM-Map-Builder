@@ -45,7 +45,6 @@ del /s *.list
 del /s *.poly
 del /s *.txt
 del /s *.args
-del /s *.log
 cd..
 
 cd %TempOutput%
