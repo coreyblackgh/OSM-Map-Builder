@@ -2,7 +2,7 @@
 
 [_id]
 ProductCode=1
-FID=480
+FID=1
 CodePage=1251
  [End]
 
@@ -93,6 +93,7 @@ String2=0x04,city
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #BDCA8B"
 "2 c #393000"
@@ -107,6 +108,7 @@ String2=0x04,town
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #BDCA8B"
 "2 c #393000"
@@ -121,6 +123,7 @@ String2=0x04,village
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #BDCA8B"
 "2 c #393000"
@@ -135,6 +138,7 @@ String2=0x04,restricted area
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #FF0000"
 "  c none"
@@ -182,6 +186,7 @@ String2=0x04,parking
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #7BCAD5"
 "2 c #39656A"
@@ -208,6 +213,7 @@ String2=0x04,airport
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #FFFFFF"
 "2 c #003041"
@@ -234,6 +240,7 @@ String2=0x04,education
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #7BCA00"
 "2 c #396500"
@@ -248,6 +255,7 @@ String2=0x04,clinic/hospital
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #BD0000"
 [end]
@@ -332,6 +340,7 @@ String2=0x04,residential
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #E6E6E6"
 "2 c #626262"
@@ -346,6 +355,7 @@ String2=0x04,building
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #BD6500"
 "2 c #7B3000"
@@ -452,6 +462,7 @@ String2=0x04,park
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 4 1"
 "! c #00FF00"
 "# c #00CA00"
@@ -548,6 +559,7 @@ String2=0x04,sport
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #7BFFB4"
 "2 c #39CA8B"
@@ -656,6 +668,7 @@ String2=0x04,golf
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 4 1"
 "! c #006500"
 "# c #7BFFB4"
@@ -705,6 +718,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #00CAFF"
 "2 c #0000B4"
@@ -721,6 +735,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #00CAFF"
 "2 c #0000B4"
@@ -737,6 +752,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #00CAFF"
 "2 c #0000B4"
@@ -753,6 +769,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #00CAFF"
 "2 c #0000B4"
@@ -814,6 +831,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="32 32 4 1"
 "! c #00CAFF"
 "  c none"
@@ -863,6 +881,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="0 0 2 0"
 "1 c #00CAFF"
 "2 c #0000B4"
@@ -936,6 +955,7 @@ String2=0x04,gardens/allotments
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 4 1"
 "! c #BDCA8B"
 "# c #009500"
@@ -1138,6 +1158,7 @@ String2=0x19,island
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #000000"
 "  c none"
@@ -1185,6 +1206,7 @@ String2=0x04,locality/valley
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #000000"
 "  c none"
@@ -1688,6 +1710,7 @@ String2=0x04,construction
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #737373"
 "# c #C5C5C5"
@@ -1735,6 +1758,7 @@ String2=0x04,pier
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFFFFF"
 [end]
@@ -2030,6 +2054,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 Xpm="32 32 4 1"
 "! c #FFCA00"
 "# c #00CAFF"
@@ -2228,13 +2253,14 @@ ExtendedLabels=N
 [_line]
 Type=0x0a
 ;GRMN_TYPE: Roads/UNPAVED_ROAD/Gravel or dirt road/Non NT, NT
-UseOrientation=Y
-Xpm="32 1 4  1"
+UseOrientation=N
+Xpm="32 4 2  1"
 "! c #000000"
-"  c none"
-"3 c #D5D5D5"
-"4 c none"
-" !!!!!!  !!!!!!  !!!!!!  !!!!!! "
+"# c #B4B4B4"
+"################################"
+"###!!!!!!!!!########!!!!!!!!!###"
+"###!!!!!!!!!########!!!!!!!!!###"
+"################################"
 ;12345678901234567890123456789012
 String1=0x19,грунтовка
 String2=0x04,track
@@ -2296,12 +2322,11 @@ ExtendedLabels=N
 Type=0x0e
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_2/Routable customizable line/Non NT, NT
 UseOrientation=Y
-Xpm="32 2 4  1"
+Xpm="32 1 4  1"
 "! c #000000"
 "  c none"
 "3 c #D5D5D5"
 "4 c none"
-"!!  !!  !!  !!  !!  !!  !!  !!  "
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 ;12345678901234567890123456789012
 String1=0x19,просека
@@ -2332,6 +2357,7 @@ String2=0x04,direction
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -2427,13 +2453,12 @@ ExtendedLabels=N
 [_line]
 Type=0x16
 ;GRMN_TYPE: Roads/TRAIL/Walkway or trail/Non NT, NT
-UseOrientation=Y
-Xpm="32 1 4  1"
-"! c #000000"
+UseOrientation=N
+Xpm="32 2 2  1"
+"! c #390041"
 "  c none"
-"3 c #E6E6E6"
-"4 c none"
-" !!  !!  !!  !!  !!  !!  !!  !! "
+" !!!!!!    !!!!!!    !!!!!!     "
+" !!!!!!    !!!!!!    !!!!!!     "
 ;12345678901234567890123456789012
 String1=0x19,тропа/дорожка
 String2=0x04,footway/path
@@ -2456,6 +2481,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 [end]
 
 
@@ -2493,6 +2519,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FFCA00
+ContourColor=No
 [end]
 
 
@@ -2512,6 +2539,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FFCA00
+ContourColor=No
 [end]
 
 
@@ -2532,6 +2560,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FFCA00
+ContourColor=No
 [end]
 
 
@@ -2550,6 +2579,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 [end]
 
 
@@ -2571,6 +2601,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF9500
 NightcustomColor:#FFCA8B
+ContourColor=No
 [end]
 
 
@@ -2589,6 +2620,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF9500
 NightcustomColor:#FFCA8B
+ContourColor=No
 [end]
 
 
@@ -2607,6 +2639,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF9500
 NightcustomColor:#FFCA8B
+ContourColor=No
 [end]
 
 
@@ -2624,6 +2657,7 @@ String2=0x04,elevation contour
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -2641,6 +2675,7 @@ String2=0x04,elevation contour
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -2658,6 +2693,7 @@ String2=0x04,elevation contour
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -2680,6 +2716,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 [end]
 
 
@@ -2720,6 +2757,7 @@ String2=0x04,pipe line
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -2786,6 +2824,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 [end]
 
 
@@ -2814,6 +2853,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 [end]
 
 
@@ -2925,6 +2965,7 @@ String2=0x04,embankment
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -2948,6 +2989,7 @@ String2=0x04,embankment
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3010,6 +3052,7 @@ String2=0x04,cutting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3023,6 +3066,7 @@ Xpm="0 0 1 0"
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3046,6 +3090,7 @@ String2=0x04,dam
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3065,6 +3110,7 @@ String2=0x19,контур здания
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3086,6 +3132,7 @@ Xpm="32 5 4  1"
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3109,6 +3156,7 @@ String2=0x19,фуникулер
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3132,6 +3180,7 @@ String2=0x19,гондола
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3155,6 +3204,7 @@ String2=0x19,смешанный
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3178,6 +3228,7 @@ String2=0x19,креселка
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3201,6 +3252,7 @@ String2=0x19,бугель
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3276,6 +3328,7 @@ String2=0x04,fence
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3317,6 +3370,7 @@ String2=0x04,tram
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3352,6 +3406,7 @@ String2=0x04,bridge
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3458,6 +3513,7 @@ String2=0x04,pier
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 
 
@@ -3479,6 +3535,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 [end]
 
 
@@ -3527,6 +3584,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#009500
 NightcustomColor:#00CA00
+ContourColor=No
 [end]
 
 
@@ -3534,7 +3592,8 @@ NightcustomColor:#00CA00
 
 
 [_point]
-Type=0x00100
+Type=0x001
+SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
 String1=0x19,
 String2=0x04,
@@ -3570,7 +3629,8 @@ DayXpm="10 10 15 1"   Colormode=16
 
 
 [_point]
-Type=0x00500
+Type=0x005
+SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_500K/City with the range of (0.5, 1] million inhabitants/Non NT
 String1=0x19,
 String2=0x04,
@@ -3597,7 +3657,8 @@ DayXpm="8 8 8 1"   Colormode=16
 
 
 [_point]
-Type=0x00600
+Type=0x006
+SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_200K/City with the range of (200, 500] thousand inhabitants/Non NT
 String1=0x19,
 String2=0x04,
@@ -3624,7 +3685,8 @@ DayXpm="8 8 8 1"   Colormode=16
 
 
 [_point]
-Type=0x00900
+Type=0x009
+SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_20K/City with the range of (20, 50] thousand inhabitants/Non NT
 String1=0x19,
 String2=0x04,
@@ -3646,7 +3708,8 @@ DayXpm="6 6 5 1"   Colormode=16
 
 
 [_point]
-Type=0x00a00
+Type=0x00a
+SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_10K/City with the range of (10, 20] thousand inhabitants/Non NT
 String1=0x19,урочище
 String2=0x04,locality
@@ -3655,6 +3718,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FFFFD5
+ContourColor=No
 DayXpm="6 6 4 1"   Colormode=32
 "!	c #000000"  alpha=0
 "#	c #000000"  alpha=15
@@ -3683,7 +3747,8 @@ NightXpm="6 6 3 1"   Colormode=32
 
 
 [_point]
-Type=0x00b00
+Type=0x00b
+SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_5K/City with the range of (5, 10] thousand inhabitants/Non NT
 String1=0x19,
 String2=0x04,
@@ -3705,7 +3770,8 @@ DayXpm="6 6 5 1"   Colormode=16
 
 
 [_point]
-Type=0x01600
+Type=0x016
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,маяк
 String2=0x04,beacon
@@ -3732,7 +3798,8 @@ DayXpm="16 13 3 1"   Colormode=32
 
 
 [_point]
-Type=0x01f00
+Type=0x01f
+SubType=0x00
 ;GRMN_TYPE: Political Entities/COUNTY/County or parish center/Non NT, NT
 String1=0x19,
 String2=0x04,
@@ -3741,6 +3808,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FFCA00
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -3765,7 +3833,8 @@ DayXpm="16 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02a00
+Type=0x02a
+SubType=0x00
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x19,столовая
 String2=0x04,dining
@@ -3791,7 +3860,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a01
+Type=0x02a
+SubType=0x01
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_AMERICAN/American cuisine/Non NT
 String1=0x19,американская
 String2=0x04,american
@@ -3817,7 +3887,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a02
+Type=0x02a
+SubType=0x02
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ASIAN/Asian cuisine/Non NT
 String1=0x19,азиатская
 String2=0x04,asian
@@ -3843,7 +3914,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a03
+Type=0x02a
+SubType=0x03
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_BARBECUE/Barbecue cuisine/Non NT
 String1=0x19,шашлык/гриль
 String2=0x04,barbecue/grill
@@ -3869,7 +3941,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a04
+Type=0x02a
+SubType=0x04
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CHINESE/Chinese cuisine/Non NT
 String1=0x19,китайская
 String2=0x04,chinise
@@ -3895,7 +3968,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a05
+Type=0x02a
+SubType=0x05
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DELI/Deli or sandwich shop/Non NT
 String1=0x19,дели
 String2=0x04,deli
@@ -3921,7 +3995,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a06
+Type=0x02a
+SubType=0x06
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_INTRNTNL/International cuisine/Non NT
 String1=0x19,международная
 String2=0x04,international
@@ -3947,7 +4022,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a07
+Type=0x02a
+SubType=0x07
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FAST_FOOD/Fast food establishment, i.e. McDonalds/Non NT
 String1=0x19,быстрое питание
 String2=0x04,fastfood
@@ -3973,7 +4049,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a08
+Type=0x02a
+SubType=0x08
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ITALIAN/Italian cuisine/Non NT
 String1=0x19,итальянская
 String2=0x04,italian
@@ -3999,7 +4076,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a09
+Type=0x02a
+SubType=0x09
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_MEXICAN/Mexican cuisine/Non NT
 String1=0x19,мексиканская
 String2=0x04,mexican
@@ -4025,7 +4103,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a0a
+Type=0x02a
+SubType=0x0a
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_PIZZA/Pizzeria/Non NT
 String1=0x19,пицца
 String2=0x04,pizza
@@ -4051,7 +4130,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a0b
+Type=0x02a
+SubType=0x0b
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_SEAFOOD/Seafood restaurant/Non NT
 String1=0x19,морепродукты
 String2=0x04,sea food
@@ -4077,7 +4157,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a0c
+Type=0x02a
+SubType=0x0c
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_STEAK/Grill and steak brew pub restaurant/Non NT
 String1=0x19,стейки
 String2=0x04,steak
@@ -4103,7 +4184,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a0d
+Type=0x02a
+SubType=0x0d
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DONUTS/Donut shop/Non NT
 String1=0x19,бублики
 String2=0x04,bagel
@@ -4129,7 +4211,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a0e
+Type=0x02a
+SubType=0x0e
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CAFES/Cafe or coffee shop/Non NT
 String1=0x19,столовая
 String2=0x04,diner
@@ -4155,7 +4238,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a0f
+Type=0x02a
+SubType=0x0f
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FRENCH/French cuisine/Non NT
 String1=0x19,французская
 String2=0x04,french
@@ -4181,7 +4265,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a10
+Type=0x02a
+SubType=0x10
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_GERMAN/German cuisine/Non NT
 String1=0x19,германская
 String2=0x04,german
@@ -4207,7 +4292,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a11
+Type=0x02a
+SubType=0x11
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_BRITISH/British cuisine/Non NT
 String1=0x19,британская
 String2=0x04,british
@@ -4233,7 +4319,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a12
+Type=0x02a
+SubType=0x12
 ;GRMN_TYPE: //
 String1=0x19,особая
 String2=0x04,speciality
@@ -4259,7 +4346,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a13
+Type=0x02a
+SubType=0x13
 ;GRMN_TYPE: //
 String1=0x19,кафе
 String2=0x04,food court
@@ -4285,7 +4373,8 @@ DayXpm="11 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02a14
+Type=0x02a
+SubType=0x14
 ;GRMN_TYPE: //
 String1=0x19,японская
 String2=0x04,japanese
@@ -4311,7 +4400,8 @@ DayXpm="11 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02a15
+Type=0x02a
+SubType=0x15
 ;GRMN_TYPE: //
 String1=0x19,корейская
 String2=0x04,korean
@@ -4337,7 +4427,8 @@ DayXpm="11 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02a16
+Type=0x02a
+SubType=0x16
 ;GRMN_TYPE: //
 String1=0x19,тайская
 String2=0x04,thai
@@ -4363,7 +4454,8 @@ DayXpm="11 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02a17
+Type=0x02a
+SubType=0x17
 ;GRMN_TYPE: //
 String1=0x19,испанская
 String2=0x04,spain
@@ -4389,7 +4481,8 @@ DayXpm="11 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02b00
+Type=0x02b
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,гостевой дом
 String2=0x04,chalet/guest house
@@ -4414,7 +4507,8 @@ DayXpm="14 11 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02b01
+Type=0x02b
+SubType=0x01
 ;GRMN_TYPE: Business - Lodging/HOTEL/Hotel/Non NT
 String1=0x19,гостиница
 String2=0x04,hotel
@@ -4439,7 +4533,8 @@ DayXpm="14 11 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02b02
+Type=0x02b
+SubType=0x02
 ;GRMN_TYPE: Business - Lodging/BED_AND_BREAKFAST/Bed and breakfast inn/Non NT
 String1=0x19,хостел
 String2=0x04,hostel
@@ -4469,7 +4564,8 @@ DayXpm="14 16 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02b03
+Type=0x02b
+SubType=0x03
 ;GRMN_TYPE: Business - Lodging/CAMPGROUND/Campground/Non NT
 String1=0x19,стоянка
 String2=0x04,camp site
@@ -4510,7 +4606,8 @@ DayXpm="14 11 19 2"   Colormode=32
 
 
 [_point]
-Type=0x02b04
+Type=0x02b
+SubType=0x04
 ;GRMN_TYPE: Business - Lodging/RESORT/Resort/Non NT
 String1=0x19,апартаменты
 String2=0x04,apartment
@@ -4535,13 +4632,15 @@ DayXpm="14 11 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02b05
+Type=0x02b
+SubType=0x05
 ;GRMN_TYPE: //
 String1=0x19,навес
 String2=0x04,shelter
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 12 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -4563,7 +4662,8 @@ DayXpm="14 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02b06
+Type=0x02b
+SubType=0x06
 ;GRMN_TYPE: //
 String1=0x19,дом отдыха/санаторий
 String2=0x04,resort
@@ -4588,7 +4688,8 @@ DayXpm="14 11 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02c02
+Type=0x02c
+SubType=0x02
 ;GRMN_TYPE: Business - Attractions/MUSEUM/Museum or historical society/Non NT
 String1=0x19,музей
 String2=0x04,museum
@@ -4615,7 +4716,8 @@ DayXpm="13 13 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02c03
+Type=0x02c
+SubType=0x03
 ;GRMN_TYPE: Business - Attractions/LIBRARY/Library/Non NT
 String1=0x19,библиотека
 String2=0x04,library
@@ -4644,7 +4746,8 @@ DayXpm="18 15 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02c04
+Type=0x02c
+SubType=0x04
 ;GRMN_TYPE: Business - Attractions/LANDMARK/Landmark/Non NT
 String1=0x19,достопримечательность
 String2=0x04,landmark
@@ -4668,7 +4771,8 @@ DayXpm="14 10 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02c05
+Type=0x02c
+SubType=0x05
 ;GRMN_TYPE: Business - Attractions/SCHOOL/School/Non NT
 String1=0x19,образование
 String2=0x04,education
@@ -4695,7 +4799,8 @@ DayXpm="11 12 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02c06
+Type=0x02c
+SubType=0x06
 ;GRMN_TYPE: Business - Attractions/GARDEN, PARK/Garden, park/Non NT
 String1=0x19,парк
 String2=0x04,park
@@ -4738,7 +4843,8 @@ DayXpm="12 13 19 2"   Colormode=16
 
 
 [_point]
-Type=0x02c07
+Type=0x02c
+SubType=0x07
 ;GRMN_TYPE: Business - Attractions/ZOO/Zoo/Non NT
 String1=0x19,зоопарк
 String2=0x04,zoo
@@ -4829,7 +4935,8 @@ DayXpm="16 16 64 2"   Colormode=16
 
 
 [_point]
-Type=0x02c08
+Type=0x02c
+SubType=0x08
 ;GRMN_TYPE: Business - Attractions/ARENA/Arena or track/Non NT
 String1=0x19,спорт
 String2=0x04,sport
@@ -4868,7 +4975,8 @@ DayXpm="13 13 15 1"   Colormode=16
 
 
 [_point]
-Type=0x02c09
+Type=0x02c
+SubType=0x09
 ;GRMN_TYPE: Business - Attractions/HALL/Auditorium or hall/Non NT
 String1=0x19,концертный зал
 String2=0x04,hall
@@ -4896,7 +5004,8 @@ DayXpm="14 12 5 1"   Colormode=16
 
 
 [_point]
-Type=0x02c0a
+Type=0x02c
+SubType=0x0a
 ;GRMN_TYPE: Business - Attractions/WINERY/Winery/Non NT
 String1=0x19,винный завод/погреб
 String2=0x04,winery/wine cellar
@@ -4927,13 +5036,15 @@ DayXpm="10 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02c0b
+Type=0x02c
+SubType=0x0b
 ;GRMN_TYPE: Business - Attractions/PLACE_OF_WORSHIP/Religious place of worship/Non NT
 String1=0x19,храм
 String2=0x04,church
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="1 1 1 1"   Colormode=16
 "!	c #FFCA00"
 "!"
@@ -4942,7 +5053,8 @@ DayXpm="1 1 1 1"   Colormode=16
 
 
 [_point]
-Type=0x02d01
+Type=0x02d
+SubType=0x01
 ;GRMN_TYPE: Business - Entertainment/LIVE_THEATER/Live theater/Non NT
 String1=0x19,театр
 String2=0x04,theatre
@@ -4971,7 +5083,8 @@ DayXpm="17 14 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02d02
+Type=0x02d
+SubType=0x02
 ;GRMN_TYPE: Business - Entertainment/BAR/Bar or club/Non NT
 String1=0x19,бар
 String2=0x04,bar
@@ -5000,7 +5113,8 @@ DayXpm="15 15 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02d03
+Type=0x02d
+SubType=0x03
 ;GRMN_TYPE: Business - Entertainment/MOVIE_THEATER/Movie theater or cinema/Non NT
 String1=0x19,кинотеатр
 String2=0x04,cinema
@@ -5029,7 +5143,8 @@ DayXpm="17 14 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02d06
+Type=0x02d
+SubType=0x06
 ;GRMN_TYPE: Business - Entertainment/SKI_CENTER/Ski area or resort/Non NT
 String1=0x19,лыжи
 String2=0x04,skiing
@@ -5061,7 +5176,8 @@ DayXpm="16 16 5 1"   Colormode=16
 
 
 [_point]
-Type=0x02d07
+Type=0x02d
+SubType=0x07
 ;GRMN_TYPE: Business - Entertainment/BOWLING/Bowling alley/Non NT
 String1=0x19,боулинг
 String2=0x04,bowling
@@ -5108,7 +5224,8 @@ DayXpm="13 16 20 2"   Colormode=16
 
 
 [_point]
-Type=0x02d08
+Type=0x02d
+SubType=0x08
 ;GRMN_TYPE: Business - Entertainment/ICE_SKATING/Ice skating rink/Non NT
 String1=0x19,каток
 String2=0x04,ice rink
@@ -5139,7 +5256,8 @@ DayXpm="16 16 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02d09
+Type=0x02d
+SubType=0x09
 ;GRMN_TYPE: Business - Entertainment/SWIMMING_POOL/Swimming pool/Non NT
 String1=0x19,бассейн
 String2=0x04,swimming
@@ -5170,7 +5288,8 @@ DayXpm="16 16 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02e00
+Type=0x02e
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,магазин
 String2=0x04,shop
@@ -5198,7 +5317,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e01
+Type=0x02e
+SubType=0x01
 ;GRMN_TYPE: Business - Shopping/DEPARTMENT_STORE/Department store/Non NT
 String1=0x19,универмаг
 String2=0x04,department store
@@ -5226,7 +5346,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e02
+Type=0x02e
+SubType=0x02
 ;GRMN_TYPE: Business - Shopping/GROCERY_STORE/Grocery store/Non NT
 String1=0x19,продукты
 String2=0x04,grocery
@@ -5252,7 +5373,8 @@ DayXpm="11 11 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e03
+Type=0x02e
+SubType=0x03
 ;GRMN_TYPE: Business - Shopping/GENERAL_STORE/General store/Non NT
 String1=0x19,магазин
 String2=0x04,general
@@ -5280,7 +5402,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e04
+Type=0x02e
+SubType=0x04
 ;GRMN_TYPE: Business - Shopping/SHOPPING_CENTER/Shopping center or mall/Non NT
 String1=0x19,троговый центр
 String2=0x04,mall
@@ -5308,7 +5431,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e05
+Type=0x02e
+SubType=0x05
 ;GRMN_TYPE: Business - Shopping/PHARMACY/Pharmacy/Non NT
 String1=0x19,аптека
 String2=0x04,pharmacy
@@ -5336,7 +5460,8 @@ DayXpm="14 14 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02e06
+Type=0x02e
+SubType=0x06
 ;GRMN_TYPE: Business - Shopping/CONVENIENCE_STORE/Convenience store/Non NT
 String1=0x19,магазин
 String2=0x04,Convenience
@@ -5364,7 +5489,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e07
+Type=0x02e
+SubType=0x07
 ;GRMN_TYPE: Business - Shopping/CLOTHING_RETAIL/Clothing store/Non NT
 String1=0x19,одежда
 String2=0x04,clothes
@@ -5392,7 +5518,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e08
+Type=0x02e
+SubType=0x08
 ;GRMN_TYPE: Business - Shopping/HOME_AND_GARDEN_STORE/House and garden store/Non NT
 String1=0x19,хозяйственный
 String2=0x04,house & garden
@@ -5420,7 +5547,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e09
+Type=0x02e
+SubType=0x09
 ;GRMN_TYPE: Business - Shopping/HOME_FURNISHINGS_STORE/Furniture store/Non NT
 String1=0x19,хозяйственный
 String2=0x04,do-it-yourself
@@ -5448,7 +5576,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e0a
+Type=0x02e
+SubType=0x0a
 ;GRMN_TYPE: Business - Shopping/SPECIALTY_RETAIL/Specialty store/Non NT
 String1=0x19,овощной
 String2=0x04,organic
@@ -5476,7 +5605,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e0b
+Type=0x02e
+SubType=0x0b
 ;GRMN_TYPE: Business - Shopping/SOFTWARE_RETAIL/Computer software store/Non NT
 String1=0x19,компьютеры
 String2=0x04,computers
@@ -5504,7 +5634,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e0c
+Type=0x02e
+SubType=0x0c
 ;GRMN_TYPE: //
 String1=0x19,мясо
 String2=0x04,butcher
@@ -5532,7 +5663,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e0d
+Type=0x02e
+SubType=0x0d
 ;GRMN_TYPE: //
 String1=0x19,магазин
 String2=0x04,shop
@@ -5560,7 +5692,8 @@ DayXpm="13 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02e0e
+Type=0x02e
+SubType=0x0e
 ;GRMN_TYPE: //
 String1=0x19,электроника
 String2=0x04,electronics
@@ -5588,7 +5721,8 @@ DayXpm="13 13 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02e0f
+Type=0x02e
+SubType=0x0f
 ;GRMN_TYPE: //
 String1=0x19,спорт/туризм
 String2=0x04,sporting/outdoor
@@ -5616,7 +5750,8 @@ DayXpm="13 13 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02e10
+Type=0x02e
+SubType=0x10
 ;GRMN_TYPE: //
 String1=0x19,алкоголь
 String2=0x04,liquor
@@ -5647,7 +5782,8 @@ DayXpm="10 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02f01
+Type=0x02f
+SubType=0x01
 ;GRMN_TYPE: Business - Services/GAS_STATION/Gas, fuel station/Non NT
 String1=0x19,АЗС
 String2=0x04,fuel
@@ -5673,7 +5809,8 @@ DayXpm="12 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02f02
+Type=0x02f
+SubType=0x02
 ;GRMN_TYPE: Business - Services/AUTO_RENTAL/Car rental location/Non NT
 String1=0x19,аренда авто
 String2=0x04,car rental
@@ -5727,7 +5864,8 @@ DayXpm="15 13 30 2"   Colormode=16
 
 
 [_point]
-Type=0x02f03
+Type=0x02f
+SubType=0x03
 ;GRMN_TYPE: Business - Services/AUTO_REPAIR/Car repair, mechanic/Non NT
 String1=0x19,автосервис
 String2=0x04,auto repair
@@ -5755,13 +5893,15 @@ DayXpm="16 14 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02f05
+Type=0x02f
+SubType=0x05
 ;GRMN_TYPE: Business - Services/POST_OFFICE/Post office/Non NT
 String1=0x19,почта
 String2=0x04,post office
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 12 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #000000"  alpha=0
@@ -5783,7 +5923,8 @@ DayXpm="16 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02f06
+Type=0x02f
+SubType=0x06
 ;GRMN_TYPE: Business - Services/BANK/Bank/Non NT
 String1=0x19,банк
 String2=0x04,bank
@@ -5825,7 +5966,8 @@ DayXpm="11 14 17 1"   Colormode=16
 
 
 [_point]
-Type=0x02f07
+Type=0x02f
+SubType=0x07
 ;GRMN_TYPE: Business - Services/DEALER/Dealer of manufactured goods/Non NT
 String1=0x19,запчасти
 String2=0x04,auto parts
@@ -5853,13 +5995,15 @@ DayXpm="16 14 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02f08
+Type=0x02f
+SubType=0x08
 ;GRMN_TYPE: Business - Services/GND_TRANSPORT/Ground transportation status, i.e. a bus station/Non NT
 String1=0x19,остановка
 String2=0x04,stop
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 8 1"   Colormode=32
 "!	c #006500"  alpha=15
 "#	c #000000"  alpha=0
@@ -5890,7 +6034,8 @@ DayXpm="16 16 8 1"   Colormode=32
 
 
 [_point]
-Type=0x02f0a
+Type=0x02f
+SubType=0x0a
 ;GRMN_TYPE: Business - Services/WRECKER_SERVICE/Wrecker service/Non NT
 String1=0x19,эвакуатор
 String2=0x04,wrecker
@@ -5920,13 +6065,15 @@ DayXpm="16 12 7 1"   Colormode=16
 
 
 [_point]
-Type=0x02f0b
+Type=0x02f
+SubType=0x0b
 ;GRMN_TYPE: Business - Services/PARKING/Parking/Non NT
 String1=0x19,парковка
 String2=0x04,parking
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -5953,7 +6100,8 @@ DayXpm="14 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x02f0c
+Type=0x02f
+SubType=0x0c
 ;GRMN_TYPE: Business - Services/REST_AREA_TOURIST_INFO/Rest area, Tourist information/Non NT
 String1=0x19,отдых
 String2=0x04,rest area
@@ -5986,7 +6134,8 @@ DayXpm="18 18 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02f0d
+Type=0x02f
+SubType=0x0d
 ;GRMN_TYPE: Business - Services/AUTO_CLUB/Automobile club/Non NT
 String1=0x19,автосалон
 String2=0x04,car sale
@@ -6012,13 +6161,15 @@ DayXpm="16 11 4 1"   Colormode=16
 
 
 [_point]
-Type=0x02f0e
+Type=0x02f
+SubType=0x0e
 ;GRMN_TYPE: Business - Services/CAR_WASH/Car wash/Non NT
 String1=0x19,автомойка
 String2=0x04,car wash
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 14 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #00108F"  alpha=0
@@ -6055,7 +6206,8 @@ DayXpm="16 16 14 1"   Colormode=32
 
 
 [_point]
-Type=0x02f10
+Type=0x02f
+SubType=0x10
 ;GRMN_TYPE: Business - Services/SERVICES_PERSONAL/Personal services/Non NT
 String1=0x19,салон красоты
 String2=0x04,beauty
@@ -6081,7 +6233,8 @@ DayXpm="12 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02f11
+Type=0x02f
+SubType=0x11
 ;GRMN_TYPE: Business - Services/SERVICES_BUSINESS/Business services/Non NT
 String1=0x19,такси
 String2=0x04,taxi
@@ -6100,13 +6253,15 @@ DayXpm="15 6 2 1"   Colormode=16
 
 
 [_point]
-Type=0x02f12
+Type=0x02f
+SubType=0x12
 ;GRMN_TYPE: Business - Services/COMMUNICATION_SERVICES/Communication services/Non NT
 String1=0x19,телефон
 String2=0x04,telephone
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 13 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #000000"  alpha=0
@@ -6129,7 +6284,8 @@ DayXpm="16 13 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02f14
+Type=0x02f
+SubType=0x14
 ;GRMN_TYPE: Business - Services/SOCIAL_SERVICES/Social services/Non NT
 String1=0x19,дом престарелых
 String2=0x04,nursing home
@@ -6157,7 +6313,8 @@ DayXpm="10 14 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02f16
+Type=0x02f
+SubType=0x16
 ;GRMN_TYPE: Business - Services/TRUCK_STOP/Truck stop/Non NT
 String1=0x19,зарядная станция
 String2=0x04,charging station
@@ -6183,7 +6340,8 @@ DayXpm="13 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x02f17
+Type=0x02f
+SubType=0x17
 ;GRMN_TYPE: Business - Services/TRANSIT_SERVICES/Mass transit services/Non NT
 String1=0x19,ж/д станция
 String2=0x04,railroad station
@@ -6222,7 +6380,8 @@ DayXpm="16 16 12 1"   Colormode=32
 
 
 [_point]
-Type=0x02f18
+Type=0x02f
+SubType=0x18
 ;GRMN_TYPE: //
 String1=0x19,интернет
 String2=0x04,internet
@@ -6250,7 +6409,8 @@ DayXpm="18 14 3 1"   Colormode=16
 
 
 [_point]
-Type=0x02f19
+Type=0x02f
+SubType=0x19
 ;GRMN_TYPE: //
 String1=0x19,АЗС
 String2=0x04,fuel
@@ -6310,7 +6470,8 @@ DayXpm="13 14 35 2"   Colormode=16
 
 
 [_point]
-Type=0x03001
+Type=0x030
+SubType=0x01
 ;GRMN_TYPE: Business - Emergency and Government/POLICE_STATION/Police station/Non NT
 String1=0x19,полиция
 String2=0x04,police
@@ -6351,7 +6512,8 @@ DayXpm="13 14 16 1"   Colormode=16
 
 
 [_point]
-Type=0x03002
+Type=0x030
+SubType=0x02
 ;GRMN_TYPE: Business - Emergency and Government/HOSPITAL/Hospital/Non NT
 String1=0x19,медицина
 String2=0x04,medicine
@@ -6379,7 +6541,8 @@ DayXpm="14 14 3 1"   Colormode=32
 
 
 [_point]
-Type=0x03003
+Type=0x030
+SubType=0x03
 ;GRMN_TYPE: Business - Emergency and Government/CITY_HALL/City hall/Non NT
 String1=0x19,учреждение
 String2=0x04,government institution
@@ -6436,7 +6599,8 @@ DayXpm="16 16 30 2"   Colormode=16
 
 
 [_point]
-Type=0x03004
+Type=0x030
+SubType=0x04
 ;GRMN_TYPE: Business - Emergency and Government/COURTHOUSE/Courthouse/Non NT
 String1=0x19,суд
 String2=0x04,court
@@ -6461,7 +6625,8 @@ DayXpm="15 11 3 1"   Colormode=32
 
 
 [_point]
-Type=0x03005
+Type=0x030
+SubType=0x05
 ;GRMN_TYPE: Business - Emergency and Government/COMMUNITY_CENTER/Community center/Non NT
 String1=0x19,общественный центр
 String2=0x04,community center
@@ -6489,7 +6654,8 @@ DayXpm="14 12 5 1"   Colormode=16
 
 
 [_point]
-Type=0x03007
+Type=0x030
+SubType=0x07
 ;GRMN_TYPE: Business - Emergency and Government/GOV_OFFICE/Government Office/Non NT
 String1=0x19,администрация
 String2=0x04,public building
@@ -6546,7 +6712,8 @@ DayXpm="10 14 32 2"   Colormode=16
 
 
 [_point]
-Type=0x03008
+Type=0x030
+SubType=0x08
 ;GRMN_TYPE: Business - Emergency and Government/FIRE_DEPT/Fire department/Non NT
 String1=0x19,пожарная часть
 String2=0x04,fire dept
@@ -6584,7 +6751,8 @@ DayXpm="18 24 3 1"   Colormode=16
 
 
 [_point]
-Type=0x03009
+Type=0x030
+SubType=0x09
 ;GRMN_TYPE: //
 String1=0x19,тюрьма
 String2=0x04,prison
@@ -6611,13 +6779,15 @@ DayXpm="14 14 2 1"   Colormode=16
 
 
 [_point]
-Type=0x03300
+Type=0x033
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,помойка
 String2=0x04,recycling
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 3 1"   Colormode=32
 "!	c #101010"  alpha=0
 "#	c #C5C5C5"  alpha=15
@@ -6641,13 +6811,15 @@ DayXpm="14 14 3 1"   Colormode=32
 
 
 [_point]
-Type=0x03301
+Type=0x033
+SubType=0x01
 ;GRMN_TYPE: //
 String1=0x19,светофор
 String2=0x04,traffic signals
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 18 34 2"   Colormode=32
 "!!	c #000000"  alpha=15
 "!#	c #FFFFFF"  alpha=0
@@ -6706,7 +6878,8 @@ DayXpm="8 18 34 2"   Colormode=32
 
 
 [_point]
-Type=0x03302
+Type=0x033
+SubType=0x02
 ;GRMN_TYPE: //
 String1=0x19,
 String2=0x04,
@@ -6715,6 +6888,7 @@ FontStyle=SmallFont
 CustomColor=DayAndNight
 DaycustomColor:#000000
 NightcustomColor:#FFFFFF
+ContourColor=No
 DayXpm="2 2 1 1"   Colormode=32
 "!	c #000000"  alpha=0
 "!!"
@@ -6724,7 +6898,8 @@ DayXpm="2 2 1 1"   Colormode=32
 
 
 [_point]
-Type=0x04200
+Type=0x042
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/WRECK/Wreck/Non NT, NT
 String1=0x19,остатки судна
 String2=0x04,wreck
@@ -6754,7 +6929,8 @@ DayXpm="15 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x04300
+Type=0x043
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,пристань
 String2=0x04,marina
@@ -6781,7 +6957,8 @@ DayXpm="14 13 3 1"   Colormode=32
 
 
 [_point]
-Type=0x04500
+Type=0x045
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,ресторан
 String2=0x04,restaurant
@@ -6811,7 +6988,8 @@ DayXpm="16 16 3 1"   Colormode=32
 
 
 [_point]
-Type=0x04600
+Type=0x046
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,бар
 String2=0x04,bar
@@ -6840,13 +7018,15 @@ DayXpm="15 15 3 1"   Colormode=32
 
 
 [_point]
-Type=0x04700
+Type=0x047
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/BOAT_RAMP/Boat ramp/Non NT, NT
 String1=0x19,лодочный спуск
 String2=0x04,slipway
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 6 1"   Colormode=16
 "!	c #00CAFF"
 "#	c #F8FCF8"
@@ -6875,13 +7055,15 @@ DayXpm="16 16 6 1"   Colormode=16
 
 
 [_point]
-Type=0x04a00
+Type=0x04a
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/PICNIC_AREA/Picnic area/Non NT, NT
 String1=0x19,пикник
 String2=0x04,picnic site
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 8 3 1"   Colormode=16
 "!	c #FFFFFF"
 "#	c #000000"
@@ -6899,13 +7081,15 @@ DayXpm="16 8 3 1"   Colormode=16
 
 
 [_point]
-Type=0x04a01
+Type=0x04a
+SubType=0x01
 ;GRMN_TYPE: //
 String1=0x19,скамейка
 String2=0x04,bench
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 5 3 1"   Colormode=16
 "!	c #FFFFFF"
 "#	c #000000"
@@ -6920,7 +7104,8 @@ DayXpm="16 5 3 1"   Colormode=16
 
 
 [_point]
-Type=0x04b00
+Type=0x04b
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/FIRST_AID/First aid station/Non NT, NT
 String1=0x19,стоматология
 String2=0x04,dentist
@@ -6948,13 +7133,15 @@ DayXpm="14 14 3 1"   Colormode=16
 
 
 [_point]
-Type=0x04c00
+Type=0x04c
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/INFORMATION/Information/Non NT, NT
 String1=0x19,информация
 String2=0x04,information
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 12 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #000000"  alpha=0
@@ -6976,13 +7163,15 @@ DayXpm="12 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x04e00
+Type=0x04e
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/RESTROOMS/Restrooms/Non NT, NT
 String1=0x19,туалет
 String2=0x04,toilet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 12 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -7004,13 +7193,15 @@ DayXpm="14 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x05000
+Type=0x050
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/DRINKING_WATER/Drinking water/Non NT, NT
 String1=0x19,питьевая вода
 String2=0x04,drinking water
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 14 18 2"   Colormode=16
 "!!	c #0000F8"
 "!#	c #F8FCF8"
@@ -7049,7 +7240,8 @@ DayXpm="13 14 18 2"   Colormode=16
 
 
 [_point]
-Type=0x05200
+Type=0x052
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/SCENIC_AREA/Scenic area/Non NT, NT
 String1=0x19,вид
 String2=0x04,viewpoint
@@ -7073,7 +7265,8 @@ DayXpm="14 10 3 1"   Colormode=32
 
 
 [_point]
-Type=0x05201
+Type=0x052
+SubType=0x01
 ;GRMN_TYPE: //
 String1=0x19,мемориал
 String2=0x04,memorial
@@ -7102,7 +7295,8 @@ DayXpm="14 15 3 1"   Colormode=16
 
 
 [_point]
-Type=0x05202
+Type=0x052
+SubType=0x02
 ;GRMN_TYPE: //
 String1=0x19,памятник/монумент
 String2=0x04,monument
@@ -7132,7 +7326,8 @@ DayXpm="14 16 3 1"   Colormode=32
 
 
 [_point]
-Type=0x05203
+Type=0x052
+SubType=0x03
 ;GRMN_TYPE: //
 String1=0x19,вулкан
 String2=0x04,volcano
@@ -7163,7 +7358,8 @@ DayXpm="15 15 5 1"   Colormode=16
 
 
 [_point]
-Type=0x05400
+Type=0x054
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/SWIMMING_AREA/Swimming area/Non NT, NT
 String1=0x19,горячий источник
 String2=0x04,hot spring
@@ -7189,13 +7385,15 @@ DayXpm="12 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x05600
+Type=0x056
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/CONTROLLED_AREA/Controlled area/Non NT, NT
 String1=0x19,ограничение скорости
 String2=0x04,city limit
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 11 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FF0000"  alpha=0
@@ -7217,13 +7415,15 @@ DayXpm="11 11 4 1"   Colormode=32
 
 
 [_point]
-Type=0x05700
+Type=0x057
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/DANGER_AREA/Danger area/Non NT, NT
 String1=0x19,стоп
 String2=0x04,stop
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 12 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FF0000"  alpha=0
@@ -7245,13 +7445,15 @@ DayXpm="12 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x05701
+Type=0x057
+SubType=0x01
 ;GRMN_TYPE: //
 String1=0x19,уступи
 String2=0x04,yield
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 11 3 1"   Colormode=32
 "!	c #101010"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -7272,13 +7474,15 @@ DayXpm="11 11 3 1"   Colormode=32
 
 
 [_point]
-Type=0x05800
+Type=0x058
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/RESTRICTED_AREA/Restricted area/Non NT, NT
 String1=0x19,шлагбаум
 String2=0x04,gate
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 9 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #990000"  alpha=0
@@ -7298,13 +7502,15 @@ DayXpm="14 9 4 1"   Colormode=32
 
 
 [_point]
-Type=0x05801
+Type=0x058
+SubType=0x01
 ;GRMN_TYPE: //
 String1=0x19,ворота
 String2=0x04,gateway
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 9 4 1"   Colormode=16
 "!	c #990000"
 "#	c #FF0000"
@@ -7324,7 +7530,8 @@ DayXpm="14 9 4 1"   Colormode=16
 
 
 [_point]
-Type=0x05904
+Type=0x059
+SubType=0x04
 ;GRMN_TYPE: //
 String1=0x19,вертолетная площадка
 String2=0x04,helipad
@@ -7347,7 +7554,8 @@ DayXpm="8 9 3 1"   Colormode=16
 
 
 [_point]
-Type=0x05a00
+Type=0x05a
+SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/MILE_MARKER/Mile marker/Non NT, NT
 String1=0x19,
 String2=0x04,
@@ -7368,13 +7576,15 @@ DayXpm="7 7 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06400
+Type=0x064
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,ж/д переезд
 String2=0x04,rail crossing
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FF0000"  alpha=0
@@ -7400,13 +7610,15 @@ DayXpm="16 16 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06401
+Type=0x064
+SubType=0x01
 ;GRMN_TYPE: Geographical Named Points of Interest/BRIDGE/Bridge/Non NT, NT
 String1=0x19,мост
 String2=0x04,bridge
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -7433,7 +7645,8 @@ DayXpm="16 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x06402
+Type=0x064
+SubType=0x02
 ;GRMN_TYPE: Geographical Named Points of Interest/BUILDING/Building/Non NT, NT
 String1=0x19,здание
 String2=0x04,building
@@ -7457,7 +7670,8 @@ DayXpm="10 10 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06403
+Type=0x064
+SubType=0x03
 ;GRMN_TYPE: Geographical Named Points of Interest/CEMETERY/Cemetery/Non NT, NT
 String1=0x19,кладбище
 String2=0x04,cemetery
@@ -7487,13 +7701,15 @@ DayXpm="13 14 5 1"   Colormode=32
 
 
 [_point]
-Type=0x06406
+Type=0x064
+SubType=0x06
 ;GRMN_TYPE: Geographical Named Points of Interest/CROSSING/Crossing/Non NT, NT
 String1=0x19,брод
 String2=0x04,ford
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #0000FF"  alpha=0
@@ -7519,13 +7735,15 @@ DayXpm="16 16 3 1"   Colormode=32
 
 
 [_point]
-Type=0x0640b
+Type=0x064
+SubType=0x0b
 ;GRMN_TYPE: Geographical Named Points of Interest/MILITARY/Military point of interest/Non NT, NT
 String1=0x19,бункер
 String2=0x04,bunker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 11 4 1"   Colormode=32
 "!	c #0000FF"  alpha=15
 "#	c #B5BAB5"  alpha=0
@@ -7547,7 +7765,8 @@ DayXpm="16 11 4 1"   Colormode=32
 
 
 [_point]
-Type=0x0640c
+Type=0x064
+SubType=0x0c
 ;GRMN_TYPE: Geographical Named Points of Interest/MINE/Mine/Non NT, NT
 String1=0x19,карьер
 String2=0x04,mine
@@ -7657,13 +7876,15 @@ DayXpm="16 14 85 2"   Colormode=32
 
 
 [_point]
-Type=0x06411
+Type=0x064
+SubType=0x11
 ;GRMN_TYPE: Geographical Named Points of Interest/TOWER/Tower/Non NT, NT
 String1=0x19,башня
 String2=0x04,tower
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 13 4 1"   Colormode=32
 "!	c #0000FF"  alpha=15
 "#	c #000000"  alpha=0
@@ -7706,13 +7927,15 @@ NightXpm="11 13 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06418
+Type=0x064
+SubType=0x18
 ;GRMN_TYPE: //
 String1=0x19,кострище
 String2=0x04,firepit
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 5 1"   Colormode=16
 "!	c #393020"
 "#	c #FF0000"
@@ -7738,7 +7961,8 @@ DayXpm="14 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x0641a
+Type=0x064
+SubType=0x1a
 ;GRMN_TYPE: //
 String1=0x19,ветряк
 String2=0x04,wind power
@@ -7770,7 +7994,8 @@ DayXpm="12 17 4 1"   Colormode=32
 
 
 [_point]
-Type=0x0641b
+Type=0x064
+SubType=0x1b
 ;GRMN_TYPE: //
 String1=0x19,мельница
 String2=0x04,windmill
@@ -7802,7 +8027,8 @@ DayXpm="12 17 4 1"   Colormode=32
 
 
 [_point]
-Type=0x06503
+Type=0x065
+SubType=0x03
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/BAY/Bay/Non NT, NT
 String1=0x19,залив/пролив
 String2=0x04,bay/strait
@@ -7811,6 +8037,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 DayXpm="7 7 3 1"   Colormode=16
 "!	c #0065FF"
 "#	c #000000"
@@ -7827,7 +8054,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06508
+Type=0x065
+SubType=0x08
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/WATERFALL/Waterfall/Non NT, NT
 String1=0x19,водопад
 String2=0x04,waterfall
@@ -7852,7 +8080,8 @@ DayXpm="9 11 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06509
+Type=0x065
+SubType=0x09
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/GEYSER/Geyser/Non NT, NT
 String1=0x19,гейзер
 String2=0x04,geyser
@@ -7878,7 +8107,8 @@ DayXpm="13 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x0650a
+Type=0x065
+SubType=0x0a
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/GLACIER/Glacier/Non NT, NT
 String1=0x19,ледник
 String2=0x04,glacier
@@ -7899,7 +8129,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x0650d
+Type=0x065
+SubType=0x0d
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/LAKE/Lake/Non NT, NT
 String1=0x19,водный объект
 String2=0x04,
@@ -7908,6 +8139,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 DayXpm="7 7 3 1"   Colormode=16
 "!	c #0065FF"
 "#	c #000000"
@@ -7924,7 +8156,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x0650e
+Type=0x065
+SubType=0x0e
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/RAPIDS/Rapids/Non NT, NT
 String1=0x19,порог
 String2=0x04,rapid
@@ -8000,7 +8233,8 @@ DayXpm="16 16 49 2"   Colormode=32
 
 
 [_point]
-Type=0x0650f
+Type=0x065
+SubType=0x0f
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/RESERVOIR/Reservoir/Non NT, NT
 String1=0x19,водохранилище
 String2=0x04,
@@ -8009,6 +8243,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 DayXpm="7 7 3 1"   Colormode=16
 "!	c #0065FF"
 "#	c #000000"
@@ -8025,7 +8260,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06511
+Type=0x065
+SubType=0x11
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/SPRING/Spring/Non NT, NT
 String1=0x19,родник
 String2=0x04,spring
@@ -8051,7 +8287,8 @@ DayXpm="12 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06513
+Type=0x065
+SubType=0x13
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/SWAMP/Swamp/Non NT, NT
 String1=0x19,болото
 String2=0x04,wetland
@@ -8080,7 +8317,8 @@ DayXpm="16 16 2 1"   Colormode=16
 
 
 [_point]
-Type=0x06514
+Type=0x065
+SubType=0x14
 ;GRMN_TYPE: //
 String1=0x19,выход
 String2=0x04,egress
@@ -8161,7 +8399,8 @@ DayXpm="16 16 54 2"   Colormode=32
 
 
 [_point]
-Type=0x06515
+Type=0x065
+SubType=0x15
 ;GRMN_TYPE: //
 String1=0x19,вход
 String2=0x04,put in
@@ -8244,7 +8483,8 @@ DayXpm="16 16 56 2"   Colormode=32
 
 
 [_point]
-Type=0x06516
+Type=0x065
+SubType=0x16
 ;GRMN_TYPE: //
 String1=0x19,вход/выход
 String2=0x04,put in/egress
@@ -8324,7 +8564,8 @@ DayXpm="16 16 53 2"   Colormode=32
 
 
 [_point]
-Type=0x06517
+Type=0x065
+SubType=0x17
 ;GRMN_TYPE: //
 String1=0x19,опасность
 String2=0x04,hazard
@@ -8533,7 +8774,8 @@ DayXpm="16 16 182 2"   Colormode=32
 
 
 [_point]
-Type=0x06600
+Type=0x066
+SubType=0x00
 ;GRMN_TYPE: //
 String1=0x19,остров
 String2=0x04,island
@@ -8555,7 +8797,8 @@ DayXpm="7 7 4 1"   Colormode=16
 
 
 [_point]
-Type=0x06601
+Type=0x066
+SubType=0x01
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/ARCH/Arch/Non NT, NT
 String1=0x19,пещера
 String2=0x04,cave
@@ -8579,13 +8822,15 @@ DayXpm="16 10 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06604
+Type=0x066
+SubType=0x04
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/BEACH/Beach/Non NT, NT
 String1=0x19,пляж
 String2=0x04,beach
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 5 1"   Colormode=16
 "!	c #F8FCF8"
 "#	c #000000"
@@ -8613,7 +8858,8 @@ DayXpm="16 16 5 1"   Colormode=16
 
 
 [_point]
-Type=0x06606
+Type=0x066
+SubType=0x06
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/CAPE/Cape/Non NT, NT
 String1=0x19,мыс
 String2=0x04,cape
@@ -8622,6 +8868,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#0065FF
 NightcustomColor:#00CAFF
+ContourColor=No
 DayXpm="7 7 3 1"   Colormode=16
 "!	c #FF0000"
 "#	c #000000"
@@ -8638,7 +8885,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06607
+Type=0x066
+SubType=0x07
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/CLIFF/Cliff/Non NT, NT
 String1=0x19,обрыв
 String2=0x04,cliff
@@ -8664,13 +8912,15 @@ DayXpm="13 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x0660f
+Type=0x066
+SubType=0x0f
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/PILLAR/Pillar/Non NT, NT
 String1=0x19,преграда
 String2=0x04,barrier
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 10 3 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FF0000"  alpha=0
@@ -8690,7 +8940,8 @@ DayXpm="10 10 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06612
+Type=0x066
+SubType=0x12
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/RESERVE/Reserve/Non NT, NT
 String1=0x19,резервация
 String2=0x04,reservation
@@ -8711,7 +8962,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06613
+Type=0x066
+SubType=0x13
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/RIDGE/Ridge/Non NT, NT
 String1=0x19,хребет
 String2=0x04,ridge
@@ -8720,6 +8972,7 @@ FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FFFFD5
+ContourColor=No
 DayXpm="6 6 4 1"   Colormode=32
 "!	c #000000"  alpha=0
 "#	c #000000"  alpha=15
@@ -8748,7 +9001,8 @@ NightXpm="6 6 3 1"   Colormode=32
 
 
 [_point]
-Type=0x06614
+Type=0x066
+SubType=0x14
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/ROCK/Rock/Non NT, NT
 String1=0x19,скала
 String2=0x04,rock
@@ -8774,7 +9028,8 @@ DayXpm="13 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06615
+Type=0x066
+SubType=0x15
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/SLOPE/Slope/Non NT, NT
 String1=0x19,камень
 String2=0x04,stone
@@ -8795,7 +9050,8 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06616
+Type=0x066
+SubType=0x16
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/SUMMIT/Summit, top of a hill or mountain/Non NT, NT
 String1=0x19,вершина
 String2=0x04,peak
@@ -8822,7 +9078,8 @@ DayXpm="14 12 4 1"   Colormode=16
 
 
 [_point]
-Type=0x06617
+Type=0x066
+SubType=0x17
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/VALLEY/Valley/Non NT, NT
 String1=0x19,долина
 String2=0x04,valley
@@ -8843,13 +9100,15 @@ DayXpm="7 7 3 1"   Colormode=16
 
 
 [_point]
-Type=0x06618
+Type=0x066
+SubType=0x18
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/WOODS/Wooded area/Non NT, NT
 String1=0x19,лес
 String2=0x04,forest
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=No
+ContourColor=No
 DayXpm="15 14 21 2"   Colormode=16
 "!!	c #F89400"
 "!#	c #F8FCF8"
@@ -8891,7 +9150,8 @@ DayXpm="15 14 21 2"   Colormode=16
 
 
 [_point]
-Type=0x1040c
+Type=0x104
+SubType=0x0c
 ;GRMN_TYPE: Isolated Dangers/ISO_DGR_SURFACE_ROCK/Rock that does not cover/Non NT, NT
 String1=0x19,риф
 String2=0x04,reef
@@ -8917,13 +9177,15 @@ DayXpm="13 12 3 1"   Colormode=16
 
 
 [_point]
-Type=0x10601
+Type=0x106
+SubType=0x01
 ;GRMN_TYPE: //
 String1=0x19,выход
 String2=0x04,gate
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 DayXpm="1 1 1 1"   Colormode=16
 "!	c #FFFFFF"
 "!"
@@ -8932,7 +9194,8 @@ DayXpm="1 1 1 1"   Colormode=16
 
 
 [_point]
-Type=0x11017
+Type=0x110
+SubType=0x17
 ;GRMN_TYPE: Business - Services/TRANSIT_SERVICES(NT)/Mass transit services/NT
 String1=0x19,вход в метро
 String2=0x04,subway entrance
@@ -8941,6 +9204,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FF0000
+ContourColor=No
 DayXpm="16 16 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #0065B4"  alpha=0
@@ -8967,7 +9231,8 @@ DayXpm="16 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x11500
+Type=0x115
+SubType=0x00
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_1/User customizable point type/Non NT, NT
 String1=0x19,пограничный камень
 String2=0x04,boundary stone
@@ -8997,13 +9262,15 @@ DayXpm="13 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11502
+Type=0x115
+SubType=0x02
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_3/User customizable point type/Non NT, NT
 String1=0x19,фонтан
 String2=0x04,fountain
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 12 3 1"   Colormode=32
 "!	c #101010"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -9025,7 +9292,8 @@ DayXpm="13 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x1150f
+Type=0x115
+SubType=0x0f
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_16/User customizable point type/Non NT, NT
 String1=0x19,станция метро
 String2=0x04,subway station
@@ -9034,6 +9302,7 @@ FontStyle=Default
 CustomColor=DayAndNight
 DaycustomColor:#FF0000
 NightcustomColor:#FF0000
+ContourColor=No
 DayXpm="16 16 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #0065D5"  alpha=0
@@ -9060,13 +9329,15 @@ DayXpm="16 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x11511
+Type=0x115
+SubType=0x11
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_18/User customizable point type/Non NT, NT
 String1=0x19,лежачий полицейский
 String2=0x04,bump
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 13 4 1"   Colormode=32
 "!	c #000000"  alpha=15
 "#	c #FFFFFF"  alpha=0
@@ -9090,13 +9361,15 @@ DayXpm="16 13 4 1"   Colormode=32
 
 
 [_point]
-Type=0x1151a
+Type=0x115
+SubType=0x1a
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_27/User customizable point type/Non NT, NT
 String1=0x19,дымовая труба
 String2=0x04,chimney
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 17 16 1"   Colormode=16
 "!	c #141414"
 "#	c #212121"
@@ -9136,13 +9409,15 @@ DayXpm="15 17 16 1"   Colormode=16
 
 
 [_point]
-Type=0x1151b
+Type=0x115
+SubType=0x1b
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_28/User customizable point type/Non NT, NT
 String1=0x19,водонапорная башня
 String2=0x04,water tower
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 4 1"   Colormode=16
 "!	c #070707"
 "#	c #0095FF"
@@ -9167,7 +9442,8 @@ DayXpm="10 14 4 1"   Colormode=16
 
 
 [_point]
-Type=0x11601
+Type=0x116
+SubType=0x01
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_34/User customizable point type/Non NT, NT
 String1=0x19,ж/д станция
 String2=0x04,railroad station
@@ -9206,7 +9482,8 @@ DayXpm="16 16 12 1"   Colormode=32
 
 
 [_point]
-Type=0x11602
+Type=0x116
+SubType=0x02
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_35/User customizable point type/Non NT, NT
 String1=0x19,храм
 String2=0x04,church
@@ -9214,6 +9491,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#0000FF
+ContourColor=No
 DayXpm="15 16 5 1"   Colormode=32
 "!	c #B4B4B4"  alpha=15
 "#	c #000100"  alpha=0
@@ -9264,7 +9542,8 @@ NightXpm="15 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x11603
+Type=0x116
+SubType=0x03
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_36/User customizable point type/Non NT, NT
 String1=0x19,АЗС
 String2=0x04,fuel
@@ -9290,7 +9569,8 @@ DayXpm="12 12 3 1"   Colormode=32
 
 
 [_point]
-Type=0x11604
+Type=0x116
+SubType=0x04
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_37/User customizable point type/Non NT, NT
 String1=0x19,замок
 String2=0x04,castle
@@ -9321,7 +9601,8 @@ DayXpm="16 13 7 1"   Colormode=32
 
 
 [_point]
-Type=0x11605
+Type=0x116
+SubType=0x05
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_38/User customizable point type/Non NT, NT
 String1=0x19,руины
 String2=0x04,ruins
@@ -9352,7 +9633,8 @@ DayXpm="16 16 4 1"   Colormode=32
 
 
 [_point]
-Type=0x11700
+Type=0x117
+SubType=0x00
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_65/User customizable point type/Non NT, NT
 String1=0x19,храм
 String2=0x04,church
@@ -9382,7 +9664,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11701
+Type=0x117
+SubType=0x01
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_66/User customizable point type/Non NT, NT
 String1=0x19,христианство
 String2=0x04,christian
@@ -9412,7 +9695,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11702
+Type=0x117
+SubType=0x02
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_67/User customizable point type/Non NT, NT
 String1=0x19,буддизм
 String2=0x04,buddhist
@@ -9442,7 +9726,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11703
+Type=0x117
+SubType=0x03
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_68/User customizable point type/Non NT, NT
 String1=0x19,индуизм
 String2=0x04,hindu
@@ -9472,7 +9757,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11704
+Type=0x117
+SubType=0x04
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_69/User customizable point type/Non NT, NT
 String1=0x19,иудаизм
 String2=0x04,jevish
@@ -9502,7 +9788,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11705
+Type=0x117
+SubType=0x05
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_70/User customizable point type/Non NT, NT
 String1=0x19,ислам
 String2=0x04,muslim
@@ -9532,7 +9819,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11706
+Type=0x117
+SubType=0x06
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_71/User customizable point type/Non NT, NT
 String1=0x19,синтоизм
 String2=0x04,shinto
@@ -9562,7 +9850,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11708
+Type=0x117
+SubType=0x08
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_73/User customizable point type/Non NT, NT
 String1=0x19,сикхизм
 String2=0x04,sikh
@@ -9592,7 +9881,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11709
+Type=0x117
+SubType=0x09
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_74/User customizable point type/Non NT, NT
 String1=0x19,даосизм
 String2=0x04,taoist
@@ -9622,7 +9912,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11710
+Type=0x117
+SubType=0x10
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_81/User customizable point type/Non NT, NT
 String1=0x19,саентология
 String2=0x04,scientologist
@@ -9652,7 +9943,8 @@ DayXpm="17 14 5 1"   Colormode=16
 
 
 [_point]
-Type=0x11711
+Type=0x117
+SubType=0x11
 ;GRMN_TYPE: User Customizable Points/CUSTOMIZABLE_POINT_82/User customizable point type/Non NT, NT
 String1=0x19,зороастризм
 String2=0x04,zoroastrian
