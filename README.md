@@ -35,4 +35,4 @@ This will help to avoid the cross-replacing of internal parts of maps and guaran
 However, also added two more styles: 'Velo100' (alternative styles & icons), and 'Jbm' (has styles from 'Velo100' but its own icons and transparent layer with all map objects - which will be helpful if You want to highlight the track or route in Your navigator).
 
 ### If You want to add contours with isolines and heights: 
-1. Go to https://garmin.opentopomap.org/#europe and download file marked as "Garmin contours" unzip it and place it together with Your newly-created OSM map.
+1. Go to https://garmin.opentopomap.org/#europe and download file marked as "Garmin contours" unzip it and place it together with Your newly-created OSM map into your Garmin device.
